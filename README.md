@@ -9,7 +9,7 @@ This project aims to visualize the performance of various music artists in diffe
 
 <img src="https://github.com/arun98aol/spotify-streaming-trends/mainpage.png" alt="Project Image">
 
-
+![alt text](https://github.com/arun98aol/spotify-streaming-trends/mainpage.png)
 
 ## Data Collection and Cleaning
 
