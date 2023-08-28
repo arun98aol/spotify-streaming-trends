@@ -15213,7 +15213,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
-<div id="cell-id=e05b019f" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=87e7f561" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -15241,7 +15241,7 @@ Dated: 9th December 2022</p>
 </div>
 </div>
 </div>
-</div><div id="cell-id=c9a8ce49" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div id="cell-id=6aa952ff" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -15336,7 +15336,7 @@ Dated: 9th December 2022</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>100%|██████████| 14/14 [00:06&lt;00:00,  2.14it/s]
+<pre>100%|██████████| 14/14 [00:07&lt;00:00,  1.91it/s]
 </pre>
 </div>
 </div>
@@ -15354,7 +15354,7 @@ Dated: 9th December 2022</p>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Export the DataFrame &#39;df&#39; to a CSV file named &#39;billboard_08_21.csv&#39;. # this billboard data is later used during visual development</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;billboard_08_21.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;data/billboard_08_21.csv&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15382,7 +15382,7 @@ Dated: 9th December 2022</p>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read in Spotify data for cleaning</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;final_data.csv&#39;</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/final_data.csv&#39;</span><span class="p">)</span>
 <span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -15815,7 +15815,7 @@ Dated: 9th December 2022</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;Movie&#39;, &#39;Soundtrack&#39;, &#39;World&#39;, &#39;Reggaeton&#39;, &#39;Anime&#39;, &#39;Hip-Hop&#39;, &#39;Folk&#39;, &#39;Electronic&#39;, &#39;Country&#39;, &#39;Jazz&#39;, &#39;Blues&#39;, &#39;Classical&#39;, &#39;Comedy&#39;, &#39;Rap&#39;, &#39;Ska&#39;, &#39;A Capella&#39;, &#39;Soul&#39;, &#39;Dance&#39;, &#39;R&amp;B&#39;, &#34;Children&#39;s Music&#34;, &#39;Opera&#39;, &#39;Alternative&#39;, &#39;Indie&#39;, &#39;Pop&#39;, &#39;Rock&#39;}
+<pre>{&#39;Reggaeton&#39;, &#39;Folk&#39;, &#39;Country&#39;, &#39;Jazz&#39;, &#39;Soul&#39;, &#39;Indie&#39;, &#39;Rap&#39;, &#39;Pop&#39;, &#39;Blues&#39;, &#39;R&amp;B&#39;, &#39;Electronic&#39;, &#39;Soundtrack&#39;, &#39;Movie&#39;, &#34;Children&#39;s Music&#34;, &#39;Opera&#39;, &#39;A Capella&#39;, &#39;Alternative&#39;, &#39;Comedy&#39;, &#39;Dance&#39;, &#39;Hip-Hop&#39;, &#39;Anime&#39;, &#39;Ska&#39;, &#39;World&#39;, &#39;Classical&#39;, &#39;Rock&#39;}
 </pre>
 </div>
 </div>
@@ -16024,7 +16024,7 @@ Dated: 9th December 2022</p>
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Exporting the &#39;data&#39; DataFrame to a CSV file named &#39;spotify_data.csv&#39;.</span>
 <span class="c1"># The &#39;index&#39; parameter is set to False to exclude the index column from the CSV.</span>
-<span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;spotify_data.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;data/spotify_data.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16033,7 +16033,7 @@ Dated: 9th December 2022</p>
 </div>
 
 </div>
-<div id="cell-id=097594ed" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div id="cell-id=6c859d60" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
