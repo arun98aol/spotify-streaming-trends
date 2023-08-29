@@ -1,8 +1,5 @@
 # Spotify Streaming Trends
 
-**Name:** Arun Ganapathy   
-**Date:** 9th December 2022  
-
 ## Introduction
 
 This project aims to visualize the performance of various music artists in different genres from 2010 to 2019 and hence the trends of users too! The detailed datasets were obtained from a Kaggle-based analytics project and the Python-based 'billboard' library. The goal is to analyze the relationship between different music metrics and artist popularity, as well as to explore trends in genres and their popularity over the specified time frame.
